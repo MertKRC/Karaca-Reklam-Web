@@ -1,0 +1,141 @@
+﻿<!DOCTYPE html>
+<html lang="zxx" class="no-js">
+<head>
+    <!-- Mobile Specific Meta -->
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <!-- Favicon-->
+    <link rel="shortcut icon" href="~/Resources/img/fav.png">
+    <!-- Author Meta -->
+    <meta name="author" content="colorlib">
+    <!-- Meta Description -->
+    <meta name="description" content="">
+    <!-- Meta Keyword -->
+    <meta name="keywords" content="">
+    <!-- meta character set -->
+    <meta charset="UTF-8">
+    <!-- Site Title -->
+    <title>KARACA REKLAM - Anasayfa</title>
+
+    <link href="https://fonts.googleapis.com/css?family=Poppins:100,200,400,300,500,600,700" rel="stylesheet">
+    <!--
+    CSS
+    ============================================= -->
+    <link rel="stylesheet" href="~/Resources/css/linearicons.css">
+    <link rel="stylesheet" href="~/Resources/css/font-awesome.min.css">
+    <link rel="stylesheet" href="~/Resources/css/bootstrap.css">
+    <link rel="stylesheet" href="~/Resources/css/magnific-popup.css">
+    <link rel="stylesheet" href="~/Resources/css/nice-select.css">
+    <link rel="stylesheet" href="~/Resources/css/animate.min.css">
+    <link rel="stylesheet" href="~/Resources/css/owl.carousel.css">
+    <link rel="stylesheet" href="~/Resources/css/jquery-ui.css">
+    <link rel="stylesheet" href="~/Resources/css/main.css">
+</head>
+<body>
+    <header id="header">
+        <div class="container main-menu">
+            <div class="row align-items-center justify-content-between d-flex">
+                <div id="logo">
+                    <a href="/"><img src="~/Resources/img/Logoufak.png" class="logo-opt" alt="" title="" /></a>
+                </div>
+                <nav id="nav-menu-container">
+                    <ul class="nav-menu nav">
+                        <li><a href="/">ANASAYFA</a></li>
+                        <li><a href="/hakkimizda">HAKKIMIZDA</a></li>
+                        <li><a href="/hizmetlerimiz">HİZMETLERİMİZ</a></li>
+                        <li><a href="/iletisim">İLETİŞİM</a></li>
+                    </ul>
+                </nav><!-- #nav-menu-container -->
+            </div>
+        </div>
+    </header><!-- #header -->
+
+
+    @* RENDER BODY START *@
+
+    @RenderBody()
+
+    @* RENDER BODY END *@
+
+
+
+    <!-- start footer Area -->
+    <footer class="footer-area section-gap">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                    <div class="single-footer-widget">
+                        <h4>KARACA REKLAM</h4>
+                        <p>
+                            En iyi fikirlerimizi sizin için sakladık !
+                        </p>
+                        <p class="footer-text">
+                            Copyright &copy;
+                            <script>document.write(new Date().getFullYear());</script> Tüm Hakkı Saklıdır | <a href="#">KARACA REKLAM</a>
+                        </p>
+                    </div>
+                </div>
+                <div class="col-lg-5 col-md-6 col-sm-6">
+                </div>
+                <div class="col-lg-2 col-md-6 col-sm-6 social-widget">
+                    <div class="single-footer-widget">
+                        <h4>Sosyal Medyada Biz</h4>
+                        <p>En güncel gelişmelerden haberdar olmak için, bizi takip edin !</p>
+                        <div class="footer-social d-flex align-items-center">
+                            <a href="#"><i class="fa fa-facebook"></i></a>
+                            <a href="#"><i class="fa fa-twitter"></i></a>
+                            <a href="#"><i class="fa fa-dribbble"></i></a>
+                            <a href="#"><i class="fa fa-behance"></i></a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <script>
+        $(document).ready(function () {
+            // Add smooth scrolling to all links
+            $("a").on('click', function (event) {
+
+                // Make sure this.hash has a value before overriding default behavior
+                if (this.hash !== "") {
+                    // Prevent default anchor click behavior
+                    event.preventDefault();
+
+                    // Store hash
+                    var hash = this.hash;
+
+                    // Using jQuery's animate() method to add smooth page scroll
+                    // The optional number (800) specifies the number of milliseconds it takes to scroll to the specified area
+                    $('html, body').animate({
+                        scrollTop: $(hash).offset().top
+                    }, 800, function () {
+
+                        // Add hash (#) to URL when done scrolling (default click behavior)
+                        window.location.hash = hash;
+                    });
+                } // End if
+            });
+        });
+    </script>
+    <!-- End footer Area -->
+
+    <script src="~/Resources/js/vendor/jquery-2.2.4.min.js"></script>
+    <script src="~/Resources/js/popper.min.js"></script>
+    <script src="~/Resources/js/vendor/bootstrap.min.js"></script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBhOdIF3Y9382fqJYt5I_sswSrEw5eihAA"></script>
+    <script src="~/Resources/js/easing.min.js"></script>
+    <script src="~/Resources/js/hoverIntent.js"></script>
+    <script src="~/Resources/js/superfish.min.js"></script>
+    <script src="~/Resources/js/jquery.ajaxchimp.min.js"></script>
+    <script src="~/Resources/js/jquery.magnific-popup.min.js"></script>
+    <script src="~/Resources/js/jquery.tabs.min.js"></script>
+    <script src="~/Resources/js/jquery.nice-select.min.js"></script>
+    <script src="~/Resources/js/isotope.pkgd.min.js"></script>
+    <script src="~/Resources/js/waypoints.min.js"></script>
+    <script src="~/Resources/js/jquery.counterup.min.js"></script>
+    <script src="~/Resources/js/simple-skillbar.js"></script>
+    <script src="~/Resources/js/owl.carousel.min.js"></script>
+    <script src="~/Resources/js/mail-script.js"></script>
+    <script src="~/Resources/js/main.js"></script>
+</body>
+</html>
