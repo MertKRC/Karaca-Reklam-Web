@@ -7,7 +7,7 @@
                 <p>
                     Merhaba ! Aşağılara indikçe gülümsememin ardında yatan profesyonelliği keşfediceksiniz. Benimle çalışmaya başladığınızda ayrıcalığın anlamını pekiştireceksiniz. Aklınızdaki müthiş projeyi hayata geçirdiğimizde ise yenisini üretmek için sabırsızlanacaksınız !
                 </p>
-                <a href="#page-sec-2" class="primary-btn text-uppercase">ŞİMDİ KEŞFEDİN</a>
+                <a href="/hizmetlerimiz" class="primary-btn text-uppercase">ŞİMDİ KEŞFEDİN</a>
             </div>
             <div class="col-lg-6 col-md-6 banner-right-new d-flex align-self-end">
                 <img class="img-fluid" src="~/Resources/img/hero-img.png" alt="">
@@ -17,157 +17,11 @@
 </section>
 <!-- End banner Area -->
 <!-- Start home-about Area -->
-<section class="home-about-area pt-120" id="page-sec-2">
-    <div class="container">
-        <div class="row align-items-center justify-content-between">
-            <div class="col-lg-6 col-md-6 home-about-left">
-                <img class="img-fluid" src="~/Resources/img/about-img.png" alt="">
-            </div>
-            <div class="col-lg-5 col-md-6 home-about-right">
-                <h6>BENİM HAKKIMDA</h6>
-                <h1 class="text-uppercase">KİŞİSEL DETAYLAR</h1>
-                <p>
-                    <span class="ml-10">Bilgisayarlarla</span> uğraşmayı ve programlamayı 11 yaşımda ilk bilgisayarımla tanıştığım gün meslek edineceğim belliydi bile. Kodlamayı sadece bir sorumluluk değil puzzle veya lego yapmak gibi sonunu getirmeden rahatlayamayacağım ve sonunu getirdikçe de başına dönmek istediğim bir dürtü olarak gördüm.<br><br>Şuan da aşk yaşadığım bu meslekle ilişkimi resmiyete vurmak adına Piri Reis Üniversitesinde okuyorum. Bitirdiğim ve referans edindiğim onlarca proje ile siz değerli müşterilerime en iyi hizmeti sunmak için buradayım.
-                </p>
-                <a href="#page-sec-1" class="primary-btn text-uppercase">DAHA FAZLASI İÇİN</a>
-            </div>
-        </div>
-    </div>
-</section>
+@Html.Partial("HakkimizdaPartial")
 <!-- End home-about Area -->
 <!-- Start services Area -->
-<section class="services-area section-gap">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="menu-content  col-lg-7">
-                <div class="title text-center">
-                    <h1 class="mb-10">Size sunduğumuz hizmetler</h1>
-                    <p>Her işin bir erbabı vardır. İşiniz bilişimse, doğru yerdesiniz!</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <span class="lnr lnr-pie-chart"></span>
-                    <a href="#"><h4>Web Tasarım</h4></a>
-                    <p>
-                        İster kurumsal, ister kişisel web sitelerinizi, ister fikirlerinizi yansıtarak, ister fikirler vererek mümkün olan en iyi tasarımı sizlere sağlıyoruz. Hayallerinizi kodluyoruz !
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <span class="lnr lnr-laptop-phone"></span>
-                    <a href="#"><h4>Web Geliştirme</h4></a>
-                    <p>
-                        İşimiz, işinizi kolaylaştırmak. Web siteleriniz veya web tabanlı uygulamalarınızın arkasında yatan tüm algoritmayı sisteminizi en az yoracak şekilde optimize ederek kuruyoruz. Daha az yorulan sistemler de günün sonunda sizlere her zaman daha iyi bir kullanıcı deneyimi ve daha az maliyet olarak geri dönüyor.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6">
-                <div class="single-services">
-                    <span class="lnr lnr-camera"></span>
-                    <a href="#"><h4>Ürün Fotoğrafçılığı</h4></a>
-                    <p>
-                        Ürünlerinizin kullanıcılarla buluştuğu en önemli nokta, onları gördükleri andır. Ürünlerinizi dünya standartlarında ve alışılmışın dışında fotoğraflıyıp kendinizi en iyi şekilde ifade etmenizi sağlıyoruz.
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="single-services">
-                    <span class="lnr lnr-picture"></span>
-                    <a href="#"><h4>Logo Tasarım</h4></a>
-                    <p>
-                        Firma veya ürünlerinizin logoları için iş ortağımız olan psikoloji uzmanlarımızdan destek alarak projenizle alakalı göze en çok hitap edecek renkleri bir araya getirip sizlere en özgün tasarımları sunuyoruz!
-                    </p>
-                </div>
-            </div>
-            <div class="col-lg-6 col-md-6">
-                <div class="single-services">
-                    <span class="lnr lnr-tablet"></span>
-                    <a href="#"><h4>Uygulama Arayüz</h4></a>
-                    <p>
-                        Projelerinizle alakalı ister size ait yönetim panelleri, ister kendi kullanıcılarınıza sunmak istediğiniz arayüzleri en trend tasarım teknolojileriyle buluşturuyoruz.
-                    </p>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@Html.Partial("HizmetlerimizPartial")
 <!-- End services Area -->
 <!-- Start price Area -->
-<section class="price-area section-gap">
-    <div class="container">
-        <div class="row d-flex justify-content-center">
-            <div class="menu-content pb-70 col-lg-8">
-                <div class="title text-center">
-                    <h1 class="mb-10">Size en uygun tarifeyi seçin !</h1>
-                    <p>İster seçenekler arasından size en uygun tarifeyi seçin, isterseniz bizimle <a>iletişim</a> kurun beraber seçelim. Başından sonuna kadar sizinleyiz !</p>
-                </div>
-            </div>
-        </div>
-        <div class="row">
-            <div class="col-lg-4 col-md-6 single-price">
-                <div class="top-part">
-                    <h1 class="package-no">01</h1>
-                    <h4>Ekonomik</h4>
-                    <p class="mt-10">Tek sayfalık portföy</p>
-                </div>
-                <div class="package-list">
-                    <ul>
-                        <li>Size özel tasarım</li>
-                        <li>Mobil Uyumluluk(Tablet ve Telefonlarınızda kusursuz görünüm)</li>
-                        <li>Danışmanlık hizmeti</li>
-                    </ul>
-                </div>
-                <div class="bottom-part">
-                    <h1>699 TL</h1>
-                    <a class="price-btn text-uppercase" href="#">İLETİŞİM</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-price">
-                <div class="top-part">
-                    <h1 class="package-no">02</h1>
-                    <h4>Kurumsal</h4>
-                    <p class="mt-10">Profesyonellere özel </p>
-                </div>
-                <div class="package-list">
-                    <ul>
-                        <li>10 Sayfaya kadar ticari ve özel tasarım</li>
-                        <li>Mobil Uyumluluk(Tablet ve Telefonlarınızda kusursuz görünüm)</li>
-                        <li>1 Senelik hosting hizmeti</li>
-                        <li>Danışmanlık Hizmeti</li>
-                    </ul>
-                </div>
-                <div class="bottom-part">
-                    <h1>1499 TL</h1>
-                    <a class="price-btn text-uppercase" href="#">İLETİŞİM</a>
-                </div>
-            </div>
-            <div class="col-lg-4 col-md-6 single-price">
-                <div class="top-part">
-                    <h1 class="package-no">03</h1>
-                    <h4>E-Ticaret</h4>
-                    <p class="mt-10 p">Online satışlar için</p>
-                </div>
-                <div class="package-list">
-                    <ul>
-                        <li>20 Sayfaya kadar özel tasarım</li>
-                        <li>Mobil Uyumluluk(Tablet ve Telefonlarınızda kusursuz görünüm)</li>
-                        <li>SEO Optimizasyonu (Arama motorlarında en önde çıkın!)</li>
-                        <li>1 Senelik hosting hizmeti</li>
-                        <li>SSL Sertifikası</li>
-                        <li>Online POS Entegrasyonu</li>
-                        <li>Danışmanlık Hizmeti</li>
-                    </ul>
-                </div>
-                <div class="bottom-part">
-                    <h1>3499 TL</h1>
-                    <a class="price-btn text-uppercase" href="#">İLETİŞİM</a>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
+@Html.Partial("FiyatlarimizPartial")
 <!-- End price Area -->	
