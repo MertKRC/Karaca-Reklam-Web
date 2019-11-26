@@ -252,7 +252,6 @@
     <Content Include="Web.config" />
     <Content Include="Views\hakkimizda\Index.cshtml" />
     <Content Include="Views\hizmetlerimiz\Index.cshtml" />
-    <Content Include="Views\iletisim\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="App_Start\RouteConfig.cs" />
@@ -282,7 +281,7 @@
     <Content Include="Views\Shared\HakkimizdaPartial.cshtml" />
     <Content Include="Views\Shared\HizmetlerimizPartial.cshtml" />
     <Content Include="Views\Shared\FiyatlarimizPartial.cshtml" />
-    <Content Include="Views\iletisim\IletisimPartial.cshtml" />
+    <Content Include="Views\iletisim\Index.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

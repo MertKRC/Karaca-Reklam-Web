@@ -26,7 +26,6 @@ namespace Karaca_Reklam_Web.Controllers
                 body.AppendLine("Konu: " + model.Subject);
                 body.AppendLine("Mesaj: " + model.Message);
                 Mail.MailSender(body.ToString());
-                ViewBag.Success = true;
             }
             return View();
         }
