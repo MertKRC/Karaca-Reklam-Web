@@ -282,6 +282,7 @@
     <Content Include="Views\Shared\HizmetlerimizPartial.cshtml" />
     <Content Include="Views\Shared\FiyatlarimizPartial.cshtml" />
     <Content Include="Views\iletisim\Index.cshtml" />
+    <Content Include="Views\iletisim\IletisimPartial.cshtml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>

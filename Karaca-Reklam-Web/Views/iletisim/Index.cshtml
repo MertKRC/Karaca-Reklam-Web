@@ -54,29 +54,10 @@
                     </div>
                 </div>
                 <div class="col-lg-8">
-                    <form class="form-area contact-form text-right" id="myForm" action="mail.php" method="post">
-                        <div class="row">
-                            <div class="col-lg-6 form-group">
-                                <input name="Name" placeholder="Adınız" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Lütfen Adınızı giriniz'" class="common-input mb-20 form-control" required="" type="text">
+                    <!-- Iletisim Partial Start-->
+                    @Html.Partial("IletisimPartial")
+                    <!-- Iletisim Partial End-->
 
-                                <input name="Email" placeholder="E-Posta adresiniz" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Lütfen E-Posta adresinizi giriniz'" class="common-input mb-20 form-control" required="" type="email">
-
-                                <input name="Subject" placeholder="Konu" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Mesajın Konusunu giriniz" class="common-input mb-20 form-control" required="" type="text">
-                            </div>
-                            <div class="col-lg-6 form-group">
-                                <textarea class="common-textarea form-control" name="Message" placeholder="Mesajınız" onfocus="this.placeholder = ''" onblur="this.placeholder = 'Lütfen mesajınızı giriniz'" required=""></textarea>
-                            </div>
-                            <div class="col-lg-12">
-                                <div class="alert-msg" style="text-align: left;"></div>
-                                <input type="submit" value="E-Posta Gönder" class="genric-btn primary" style="float: right;" />
-                                @if (ViewBag.Success == true)
-                                {
-                                    <span>Mesajınız başarıyla gönderilmiştir.</span>
-                                }
-                            </div>
-
-                        </div>
-                    </form>
                 </div>
             </div>
         </div>
