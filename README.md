@@ -24,8 +24,3 @@ Nov 27, 2019 Features;
 Mail problem resolved. Now contact form is working. Just need to resolve tiny css issue for the form's button and textarea
 
 -------------------------------
-Nov 28, 2019 Features;
-
-Basic css changes
-
--------------------------------
