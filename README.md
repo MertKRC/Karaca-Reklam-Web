@@ -1,6 +1,8 @@
 # Karaca-Reklam-Web
 
 My offical web site project. Published it's source codes for publicity.
+### Quick Preview
+![Karaca-Reklam-Web](https://raw.githubusercontent.com/MertKRC/Karaca-Reklam-Web/master/Github/karaca-reklam-web.gif)
 
 Change Log:
 -------------------------------
